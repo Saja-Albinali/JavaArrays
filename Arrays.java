@@ -9,8 +9,8 @@ public class Arrays {
 
         temperatures[2]=45;
 
-        for (int temp:temperatures){
-            System.out.println(temp);
+         for (int i = 0; i< temperatures.length; i++){
+            System.out.println(temperatures[i]);
         }
     }
 }
